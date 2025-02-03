@@ -10,7 +10,7 @@ const Layout = () => {
 
                 <div className="layout-wrapper__logo-button-wrapper__button-space">
 
-                    <button className="layout-wrapper__logo-button-wrapper__button"></button>
+                    <button className="layout-wrapper__logo-button-wrapper__button">Adicionar Tarefa</button>
 
                 </div>
 

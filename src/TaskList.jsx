@@ -8,7 +8,7 @@ const TaskList = () => {
 
                 <h1 className="task-list-wrapper__header-wrapper__title">Notes</h1>
 
-                <button className="task-list-wrapper__header-wrapper__title__erase-all"></button>
+                <button className="task-list-wrapper__header-wrapper__title__erase-all">Apagar todas as tarefas</button>
 
             </div>
 

@@ -1,24 +1,28 @@
 const TaskCard = () => {
     return (
-            <div className="task-wrapper">
+        <div className="task-wrapper">
 
-                <h2 className="task-wrapper__title"></h2>
+            <div className="task-wrapper__header-wrapper">
 
-                <div className="task-wrapper__footer-wrapper">
+                <h3 className="task-wrapper__header-wrapper__date">06/02/2025</h3>
 
-                    <h3 className="task-wrapper__footer-wrapper__date"></h3>
+                <h2 className="task-wrapper__title">Amar morzitos!</h2>
 
-                    <div className="task-wrapper__footer-wrapper__buttons-wrapper">
+            </div>
 
-                        <button className="task-wrapper__footer-wrapper__buttons-wrapper__edit-button"></button>
+            <div className="task-wrapper__end-wrapper">
 
-                        <button className="task-wrapper__footer-wrapper__buttons-wrapper__trash-button"></button>
+                <div className="task-wrapper__end-wrapper__buttons-wrapper">
 
-                    </div>
+                    <button className="task-wrapper__end-wrapper__buttons-wrapper__edit-button">Editar</button>
+
+                    <button className="task-wrapper__end-wrapper__buttons-wrapper__trash-button">Apagar</button>
 
                 </div>
 
             </div>
+
+        </div>
     )
 }
 
