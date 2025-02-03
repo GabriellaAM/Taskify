@@ -1,11 +1,10 @@
-import TaskCard from './TaskCard'
+import Layout from './Layout'
 import '../css/main.css'
 
 const App = () => {
 
   return (
-    <>
-    </>
+    <Layout/>
   )
 }
 
