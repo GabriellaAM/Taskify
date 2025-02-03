@@ -1,6 +1,7 @@
+import TaskCard from './TaskCard'
 import '../css/main.css'
 
-function App() {
+const App = () => {
 
   return (
     <>
